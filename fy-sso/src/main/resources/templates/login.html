@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>统一登录页面</title>
+		<script type="text/javascript" src="/js/login/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="/js/login/login-xin.js"></script>
+		<script type="text/javascript" src="/js/login/login_ajax.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/login/login.css">
+	</head>
+	<!-- <body onLoad="createCode();">   需要验证码时取消次注解  -->
+	
+	<body>  
+<div class="login">
+			<div class="login-head">
+				<div class="login-head-a">
+					<img src="/img/a.jpg" title="" alt=""/>
+					<!-- <p>我的</p> -->
+				</div>
+				<div class="login-head-b">
+					统一登陆系统
+				</div>
+			</div>
+			<div class="login-con">
+				<div class="login-a">
+					<form id="loginForm" >
+                      <div class="login-b">
+                      	<div class="login-b-a">用户登录</div>
+                      	<div class="login-b-b">
+                      		<ul>
+                      			<li>
+                      				<label for="userName" >用户名：</label><input type="text" id="mobile" name="userName"  AUTOCOMPLETE="off"/>
+                      				<h1 id="m-tip"></h1>
+                      			</li>
+                      			<li>
+                      				<label for="password">密 &nbsp;&nbsp;码：</label><input type="password" id="password" name="password"/>
+                      				<h1 id="p-tip"></h1>
+                      			</li>
+                      		<!-- 	<li>
+                      				<label >验证码：</label><input type="text" id="input1"   AUTOCOMPLETE="off"/>      
+                                    <input type="text" id="checkCode" class="code" style="width: 55px" disabled="disabled" /> <a href="#" onClick="createCode()">看不清楚</a>      
+                                    <h1 id="c-tip"></h1>
+                      			</li> -->
+                      			
+                      			<li class="login-x">
+		                          <input type="button" name="登录" value="登录"id="Button1" onClick="validate();" />
+		                       
+	                            </li>
+                      			
+                      		</ul>
+                      	</div>
+                      	<div class="login-b-c">
+                      		<!-- <a href="#">免费接入</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">忘记登录密码？</a> -->
+                      	</div>
+                      </div>
+					</form>
+				</div>
+			</div>
+			<div class="login-foot">
+				
+			</div>
+		</div>
+</body>    
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fy-mdm/fy-mdm.iml" filepath="$PROJECT_DIR$/fy-mdm/fy-mdm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fy-srm/fy-srm.iml" filepath="$PROJECT_DIR$/fy-srm/fy-srm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fy-sso/fy-sso.iml" filepath="$PROJECT_DIR$/fy-sso/fy-sso.iml" />
+    </modules>
+  </component>
+</project>
